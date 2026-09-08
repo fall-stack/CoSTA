@@ -15,8 +15,8 @@ from torch.optim.lr_scheduler import StepLR
 from sklearn.neighbors import NearestNeighbors
 from datetime import datetime
 
-INPUT_H5_PATH =  '/media/swust123/DATA1/qiu_data/project/real_data/filter/' + 'GSE84133_human' +'.h5'
-OUTPUT_H5_PATH =  "/media/swust123/DATA1/qiu_data/project/real_data/New2/filter/our_impute/GSE84133_human"+"_our.h5"
+INPUT_H5_PATH =  'dropout_mid2' +'.h5'
+OUTPUT_H5_PATH =  "dropout_mid2"+"_our.h5"
 
 DATA_KEY = "data"
 GENE_KEY = "gene_name"
